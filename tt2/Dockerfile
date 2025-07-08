@@ -2,7 +2,7 @@ FROM perl:5.36
 
 RUN cpanm Template
 
-RUN cpanm Template::Tools
+RUN cpanm Template::Toolkit
 
 WORKDIR /app
 
